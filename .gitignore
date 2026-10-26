@@ -1,0 +1,9 @@
+# Compilados
+*.class
+bin/
+out/
+build/
+
+# Sistema
+.DS_Store
+Thumbs.db

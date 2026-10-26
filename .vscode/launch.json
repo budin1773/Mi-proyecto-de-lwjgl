@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LWJGL App",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "MiProyectoLWJGL",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": [
+        "-Djava.library.path=${workspaceFolder}/lib",
+        "-Xmx1g"
+      ],
+      "classPaths": [
+        "${workspaceFolder}/lib"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

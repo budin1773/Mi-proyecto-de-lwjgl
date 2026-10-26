@@ -1,0 +1,16 @@
+    para una ventana convencional
+
+    glfwInit();
+    window = glfwCreateWindow(800, 600, "title", 0, 0);
+    glfwMakeContextCurrent(window);
+    GL.createCapabilities();
+    glViewport(800, 600, 0, 0);
+    glfwSetFramebufferSizeCallback(window, (w, wi, h) ->{
+    glViewport(0, 0, wi, h);
+});
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(0, 800, 600, 0, -1, 1);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+
