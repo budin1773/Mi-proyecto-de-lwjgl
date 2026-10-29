@@ -1,8 +1,4 @@
 import static org.lwjgl.opengl.GL33.*;
-import org.lwjgl.stb.STBImage;
-import java.nio.ByteBuffer;
-import java.nio.IntBuffer;
-import org.lwjgl.system.MemoryStack;
 
 public class Cuadrado {
 int vao;
