@@ -57,11 +57,7 @@ kitchenObj.draw();
 frezerObj.draw();
 chefPl.draw();
 clientNpc.draw();
-
-if (chefPl.Make){
-Invtxr.draw();
-}
-
+    
 // 1
 if (glfwGetKey(wn.getWin(), GLFW_KEY_W) == GLFW_PRESS) {
 float lastMoveY = chefPl.cubeY;
